@@ -1,0 +1,169 @@
+body{
+    background-image: url(../Imgs/signup_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: hue-rotate(0deg);
+    opacity: 0.9;
+    animation: site_coloring_anim 10s;
+    animation-fill-mode:backwards;
+    animation-iteration-count: 10;
+}
+
+.product_message{
+    
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    color: #8aff8a;
+    
+    margin-top: 10px;
+    
+}
+
+.Login_message{
+    
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    color: #8aff8a;
+    
+    margin-top: 120px;
+    
+}
+
+.line{
+    height: 3px;
+    width: 0%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ff7878;
+    animation: line_scale 3s;
+    animation-fill-mode: forwards;
+
+}
+
+.form_line{
+    height: 2px;
+    width: 0%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #11ffbf;
+    animation: line_form_scale 3s;
+    animation-fill-mode: forwards;
+
+}
+
+.text{
+    
+    font-family: sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    
+}
+
+
+input{
+    text-align: center;
+    height: 25px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.radio{
+    width: 15;
+    
+}
+
+.ddlist{
+    width: 200;
+    height: 25px;
+    margin-top: 10px; 
+    
+}
+
+.product_btn{
+    
+    width: 200;
+    height: 40;
+    
+    background-color: #1eff63;
+    color: black;
+    
+    font-family: sans-serif;
+    font-size: 18px;
+    
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product_btn:hover{
+    background-color: #1ee059;
+}
+
+.form_wrapper{
+    
+	text-align: center;
+	margin-top: 40px;
+
+	width: 35%;
+    
+    margin-left: 32%;
+    
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+	background-color: #1f495f;
+    
+    
+}
+
+
+
+@keyframes line_scale {
+    from{
+        width: 0%;
+    }
+    
+    to{
+        width: 10%;
+    }
+    
+}
+
+@keyframes line_form_scale {
+    from{
+        width: 0%;
+    }
+    
+    to{
+        width: 60%;
+    }
+    
+}
+
+@keyframes site_coloring_anim {
+    from{
+        filter: hue-rotate(0deg);
+    }
+    
+    to{
+        filter: hue-rotate(360deg);
+
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    

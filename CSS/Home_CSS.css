@@ -1,0 +1,419 @@
+/*>>>>>>>>>body<<<<<<<<<*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*>>>>>>>>>End of body<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>><<<<<<<<<<<<*/
+
+.welcome_wrapper{
+
+	background-image: url("../Imgs/background.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center center;
+	padding-bottom: 50px;
+
+}
+
+/*>>>>>>>>>>>>>List<<<<<<<<<<<<*/
+.navbar {
+    width: 100%;
+	background-color: #363636;
+	overflow: hidden;
+}
+ul{
+    margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	padding: 20px 14px;
+	text-decoration: none;
+	color: white;
+}
+
+/*>>>>>>>>>>>>>Some Graphics<<<<<<<<<<<<*/
+.active {
+
+    background-color: #4CAF50;
+}
+.active:hover {
+
+    background-color: #4CAF50;
+}
+
+.MainMenu{
+
+	margin-left: 70px;
+}
+.MainMenu li a:hover{
+
+	background-color: #222222;
+}
+/*>>>>>>>>>>>>>End of Graphics<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>End of List<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>LOGO<<<<<<<<<<<<<<<<<<<<<<*/
+img.logo{
+	width:  50px;
+	height: 50px;
+	float: left;
+	padding: 4px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>END of LOGO<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>>MESSAGE<<<<<<<<<<<<<<<<<<*/
+.message{
+	margin-top: 90px;
+	text-align: center;
+	letter-spacing: 10px;
+	font-family: sans-serif;
+	font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+/*>>>>>>>>>>>>>>>>END of MESSAGE<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>BUTTONS<<<<<<<<<<<<<<<*/
+.buttons{
+    
+    margin-top: 350px;
+    overflow: hidden;
+    
+}
+
+/*>>>>>>>>>>>>>>>>LOGIN_BUTTON<<<<<<<<<<<<<<<*/
+.login{
+    margin-left: 350px;
+	float: left;
+	padding: 20px 25px;
+    display: block;
+
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+
+    background-color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.logout{
+    margin:0;
+    padding: 0;
+    
+}
+
+/*>>>>>>>>>>>>END of LOGIN_BUTTON<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>SIGNUP_BUTTON<<<<<<<<<<<<<<*/
+.signup{
+    margin-right: 350px;
+    float: right;
+	padding: 20px 25px;
+    display: block;
+
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: #4CAF50;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+/*>>>>>>>>>>END of SIGNUP_BUTTON<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>buttons graphics<<<<<<<<<<<<<<<<<<<*/
+
+.login:hover{
+    
+    color: #4CAF50;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.signup:hover{
+    
+    color: white;
+    background-color: #4CAF50;
+    
+}
+
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>END of BUTTONS<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>Services<<<<<<<<<<<<<<<<<<<*/
+.services_wrapper{
+    
+    overflow: hidden;
+	width: 100%;    
+}
+
+.service{
+    float: left;
+    width: 150px;
+	padding-left : 6.84%;
+    padding-right: 6.84%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>Images<<<<<<<<<<<<<<<<<<<*/
+.img{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
+#price{
+    
+    background-image: url("../Imgs/$W.png");
+	background-size: cover;
+    
+}
+#client{
+    
+    background-image: url("../Imgs/userW.png");
+	background-size: cover;
+    
+}
+#world{
+    
+    background-image: url("../Imgs/worldW.png");
+	background-size: cover;
+    
+}
+#credit{
+    
+    background-image: url("../Imgs/creditW.png");
+	background-size: cover;
+    
+}
+
+/*>>>>>>>>>>>>>>>>>>>End of Images<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>title<<<<<<<<<<<<<<<<<<<*/
+.title
+{
+    
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:#989898;
+    font-variant-caps: all-small-caps;
+    font-size: 20px;
+}
+/*>>>>>>>>>>>>>>>>>>>End of Title<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>Info<<<<<<<<<<<<<<<<<<<*/
+.info{
+    
+    text-align: center;
+    font-family: monospace;
+    word-spacing: -3px;
+    color:#bababa;
+    font-variant-caps: all-small-caps;
+    font-size: 20px;
+}
+/*>>>>>>>>>>>>>>>>>>>End of Info<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>some graphics<<<<<<<<<<<<<<<<<<<*/
+.service:hover{
+    
+    animation: text_change_color_anim 0.5s;
+    animation-fill-mode: forwards; /*make it stops at the last frame*/
+    
+}
+.service:hover .title{
+    
+    color: white;
+
+}
+.service:hover .info{
+    
+    color: lightgreen;
+    font-size: 20px;
+    
+}
+
+.service:hover #price{
+    
+    animation: price_change_image_anim 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+.service:hover #client{
+    
+    animation: client_change_image_anim 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+.service:hover #world{
+    
+    animation: world_change_image_anim 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+.service:hover #credit{
+    
+    animation: credit_change_image_anim 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>Animations<<<<<<<<<<<<<<<<<<<*/
+@keyframes text_change_color_anim{
+    
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: #1a1a1a;
+    }
+    
+}
+
+/*>>>>>>>>>>>>>>>>>>>image_change_Animation<<<<<<<<<<<<<<<<<<<*/
+@keyframes price_change_image_anim{
+    
+    from{
+        background-image: url("../Imgs/$W.png");
+
+    }
+    to{
+        background-image: url("../Imgs/$C.png");
+    }
+    
+}
+@keyframes client_change_image_anim{
+    
+    from{
+        background-image: url("../Imgs/userW.png");
+
+    }
+    to{
+        background-image: url("../Imgs/userC.png");
+    }
+    
+}
+@keyframes world_change_image_anim{
+    
+    from{
+        background-image: url("../Imgs/worldW.png");
+
+    }
+    to{
+        background-image: url("../Imgs/worldC.png");
+    }
+    
+}
+@keyframes credit_change_image_anim{
+    
+    from{
+        background-image: url("../Imgs/creditW.png");
+
+    }
+    to{
+        background-image: url("../Imgs/creditC.png");
+    }
+    
+}
+
+/*>>>>>>>>>>>>>>>>>>>End of Animation<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>End of graphics<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>End of services<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<*/
+
+.social_bar{
+    width: 100%;
+    overflow: hidden;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+    margin-left: -30px;
+    
+}
+
+#fb{
+    background-image: url(../Imgs/fb.png);
+    background-size: cover;
+}
+#fb:hover{
+    background-image: url(../Imgs/fb_C.png);
+}
+
+#tweet{
+    background-image: url(../Imgs/tweet.png);
+    background-size: cover;
+}
+#tweet:hover{
+    background-image: url(../Imgs/tweet_C.png);
+}
+
+#insta{
+    background-image: url(../Imgs/insta.png);
+    background-size: cover;
+}
+#insta:hover{
+    background-image: url(../Imgs/insta_C.png);
+}
+
+#call{
+    background-image: url(../Imgs/call.png);
+    background-size: cover;
+}
+#call:hover{
+    background-image: url(../Imgs/call_C.png);
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<*/
+footer{
+
+	text-align: center;
+	background-color: #151515;
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 20px;
+
+}
+/*>>>>>>>>>>>>>>>>>>>End of footer<<<<<<<<<<<<<<<<<<<*/
+

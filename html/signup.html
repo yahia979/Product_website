@@ -1,0 +1,82 @@
+<html>
+
+    <head>
+    
+        <title>SignUP</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/SignUp_CSS.css">    
+    </head>
+    <body>
+        <form action="../php/user.php" method="post">
+            <div class="SignUp_message">
+                Signup
+            </div>
+
+            <div class="line"></div>
+
+            <div class="form_wrapper">    
+
+                <div class="text">Username</div>
+                <input type="text"  name="Username" placeholder="Pick catchy name">
+
+                <br><br>
+                <div class="form_line"></div>
+                <br>
+
+                <div class="text">Password</div>
+                <input type="password" name="pass" placeholder="Enter a strong password">
+                <br><br>
+
+                <div class="text">Confirm-password</div>
+                <input type="password" name="pass_confirm" placeholder="ReEnter your password">
+
+                <br><br>
+                <div class="form_line"></div>
+                <br>
+
+
+                <div class="text">Email</div>
+                <input type="text"  name="Email" placeholder="Enter your e-mail">
+
+                <br><br>
+                <div class="form_line"></div>
+                <br>
+
+                <div class="text">Address</div>
+                <input type="text"  name="address" placeholder="Enter your address">
+
+                <br><br>
+                <div class="form_line"></div>
+                <br>
+
+                <div class="text">Phone</div>
+                <input type="text"  name="phone" placeholder="Enter your Phone">
+
+
+                <br><br>
+                <div class="form_line"></div>
+                <br>
+
+                <div class="text">Gender</div>
+                <input class="radio" type = "radio" name = "Gender" value = "male" checked>  Male
+                <input class="radio" type = "radio" name = "Gender" value = "female"> Female
+                <br><br><br>
+
+                <div class="text">Country</div>
+                <select class="ddlist" name="country">
+                    <option>Egypt</option>
+                    <option>USA</option>
+                    <option>England</option>
+                    <option>France</option>
+                    <option>German</option>
+                </select>
+                <br><br>
+
+
+                <input class="signup_btn" type="submit" name="SignUP" value="SignUP" >
+
+            </div>
+        </form>
+    </body>
+    
+    
+</html>

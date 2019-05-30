@@ -1,0 +1,68 @@
+<html>
+
+    <head>
+    
+        <title>sell_Product</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/product_css.css">    
+    </head>
+<body>
+
+
+
+    <div class="product_form">
+<form action="../php/product.php" method="POST">
+            <div class="product_message">
+                PRODUCT
+            </div>
+
+            <div class="line"></div>
+
+    <div class="form_wrapper">    
+
+
+             <div class="text"> ProductName </div> 
+                    <input type="text"  name="productname" placeholder="enter your ProductName">
+                    <br><br>
+                     <div class="form_line"></div>
+                     <br>
+
+             <div class="text"> ProductPrice</div>
+                    <input type="number" name="productprice" placeholder="enter your ProductPrice">
+                    <br><br>
+
+            <div class="text"> ProductModel</div>
+                    <input type="text" name="productmodel" placeholder="enter your ProductModel">
+                     <br><br>
+                     <div class="form_line"></div>
+                     <br>
+
+             <div class="text"> Phone</div> 
+                     <input type="number"  name="phone" placeholder="enter your Phone">
+                     <br><br>
+                     <div class="form_line"></div>
+                     <br>
+
+             <div class="text">Product_status</div>
+                <input class="radio" type = "radio" name = "productstatus" value = "new" checked="">  new
+                <input class="radio" type = "radio" name = "productstatus" value = "used"> used
+                <br><br><br>
+
+                <div class="text">Country</div>
+            <select class="ddlist" name="productcountry">
+                    <option>Egypt</option>
+                    <option>USA</option>
+                    <option>England</option>
+                    <option>France</option>
+                    <option>German</option>
+                </select>
+                <br><br>
+ 
+ 
+   
+                  <input class="product_btn" type="submit" name="add_product" value="add_product">
+    </div>
+ </form>
+
+</body>
+
+</html>
